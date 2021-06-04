@@ -332,46 +332,6 @@
     <AlignCenter>true</AlignCenter>
   </Label>
 
-  <Label item="BW_Number15Label">
-    <ScreenID>BW_Number15Label</ScreenID>
-  </Label>
-
-  <Label item="BW_Number16Label">
-    <ScreenID>BW_Number16Label</ScreenID>
-  </Label>
-
-  <Label item="BW_Number17Label">
-    <ScreenID>BW_Number17Label</ScreenID>
-  </Label>
-
-  <Label item="BW_Number18Label">
-    <ScreenID>BW_Number18Label</ScreenID>
-  </Label>
-
-  <Label item="BW_Number19Label">
-    <ScreenID>BW_Number19Label</ScreenID>
-  </Label>
-
-  <Label item="BW_Number20Label">
-    <ScreenID>BW_Number20Label</ScreenID>
-  </Label>
-
-  <Label item="BW_Number21Label">
-    <ScreenID>BW_Number21Label</ScreenID>
-  </Label>
-
-  <Label item="BW_Number22Label">
-    <ScreenID>BW_Number22Label</ScreenID>
-  </Label>
-
-  <Label item="BW_Number23Label">
-    <ScreenID>BW_Number23Label</ScreenID>
-  </Label>
-
-  <Label item="BW_Number24Label">
-    <ScreenID>BW_Number24Label</ScreenID>
-  </Label>
-
   <Button item="BW_Buff0_Button">
     <ScreenID>Buff0</ScreenID>
     <RelativePosition>true</RelativePosition>
@@ -749,40 +709,9 @@
     </DecalSize>
   </Button>
 
-  <Button item="BW_Buff15_Button">
-    <ScreenID>Buff15</ScreenID>
-  </Button>
-  <Button item="BW_Buff16_Button">
-    <ScreenID>Buff16</ScreenID>
-  </Button>
-  <Button item="BW_Buff17_Button">
-    <ScreenID>Buff17</ScreenID>
-  </Button>
-  <Button item="BW_Buff18_Button">
-    <ScreenID>Buff18</ScreenID>
-  </Button>
-  <Button item="BW_Buff19_Button">
-    <ScreenID>Buff19</ScreenID>
-  </Button>
-  <Button item="BW_Buff20_Button">
-    <ScreenID>Buff20</ScreenID>
-  </Button>
-  <Button item="BW_Buff21_Button">
-    <ScreenID>Buff21</ScreenID>
-  </Button>
-  <Button item="BW_Buff22_Button">
-    <ScreenID>Buff22</ScreenID>
-  </Button>
-  <Button item="BW_Buff23_Button">
-    <ScreenID>Buff23</ScreenID>
-  </Button>
-  <Button item="BW_Buff24_Button">
-    <ScreenID>Buff24</ScreenID>
-  </Button>
-
   <Label item ="BW_Buff0_Label">
     <ScreenID>Buff0Label</ScreenID>
-    <EQType>500</EQType>
+    <EQType>45</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -803,7 +732,7 @@
   </Label>
   <Label item ="BW_Buff1_Label">
     <ScreenID>Buff1Label</ScreenID>
-    <EQType>501</EQType>
+    <EQType>46</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -824,7 +753,7 @@
   </Label>
   <Label item ="BW_Buff2_Label">
     <ScreenID>Buff2Label</ScreenID>
-    <EQType>502</EQType>
+    <EQType>47</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -845,7 +774,7 @@
   </Label>
   <Label item ="BW_Buff3_Label">
     <ScreenID>Buff3Label</ScreenID>
-    <EQType>503</EQType>
+    <EQType>48</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -866,7 +795,7 @@
   </Label>
   <Label item ="BW_Buff4_Label">
     <ScreenID>Buff4Label</ScreenID>
-    <EQType>504</EQType>
+    <EQType>49</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -887,7 +816,7 @@
   </Label>
   <Label item ="BW_Buff5_Label">
     <ScreenID>Buff5Label</ScreenID>
-    <EQType>505</EQType>
+    <EQType>50</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -908,7 +837,7 @@
   </Label>
   <Label item ="BW_Buff6_Label">
     <ScreenID>Buff6Label</ScreenID>
-    <EQType>506</EQType>
+    <EQType>51</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -929,7 +858,7 @@
   </Label>
   <Label item ="BW_Buff7_Label">
     <ScreenID>Buff7Label</ScreenID>
-    <EQType>507</EQType>
+    <EQType>52</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -950,7 +879,7 @@
   </Label>
   <Label item ="BW_Buff8_Label">
     <ScreenID>Buff8Label</ScreenID>
-    <EQType>508</EQType>
+    <EQType>53</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -971,7 +900,7 @@
   </Label>
   <Label item ="BW_Buff9_Label">
     <ScreenID>Buff9Label</ScreenID>
-    <EQType>509</EQType>
+    <EQType>54</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -992,7 +921,7 @@
   </Label>
   <Label item ="BW_Buff10_Label">
     <ScreenID>Buff10Label</ScreenID>
-    <EQType>510</EQType>
+    <EQType>55</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -1013,7 +942,7 @@
   </Label>
   <Label item ="BW_Buff11_Label">
     <ScreenID>Buff11Label</ScreenID>
-    <EQType>511</EQType>
+    <EQType>56</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -1034,7 +963,7 @@
   </Label>
   <Label item ="BW_Buff12_Label">
     <ScreenID>Buff12Label</ScreenID>
-    <EQType>512</EQType>
+    <EQType>57</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -1055,7 +984,7 @@
   </Label>
   <Label item ="BW_Buff13_Label">
     <ScreenID>Buff13Label</ScreenID>
-    <EQType>513</EQType>
+    <EQType>58</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -1076,7 +1005,7 @@
   </Label>
   <Label item ="BW_Buff14_Label">
     <ScreenID>Buff14Label</ScreenID>
-    <EQType>514</EQType>
+    <EQType>59</EQType>
     <Font>1</Font>
     <RelativePosition>true</RelativePosition>
     <Location>
@@ -1094,36 +1023,6 @@
       <B>240</B>
     </TextColor>
     <NoWrap>false</NoWrap>
-  </Label>
-  <Label item ="BW_Buff15_Label">
-    <ScreenID>Buff15Label</ScreenID>
-  </Label>
-  <Label item ="BW_Buff16_Label">
-    <ScreenID>Buff16Label</ScreenID>
-  </Label>
-  <Label item ="BW_Buff17_Label">
-    <ScreenID>Buff17Label</ScreenID>
-  </Label>
-  <Label item ="BW_Buff18_Label">
-    <ScreenID>Buff18Label</ScreenID>
-  </Label>
-  <Label item ="BW_Buff19_Label">
-    <ScreenID>Buff19Label</ScreenID>
-  </Label>
-  <Label item ="BW_Buff20_Label">
-    <ScreenID>Buff20Label</ScreenID>
-  </Label>
-  <Label item ="BW_Buff21_Label">
-    <ScreenID>Buff21Label</ScreenID>
-  </Label>
-  <Label item ="BW_Buff22_Label">
-    <ScreenID>Buff22Label</ScreenID>
-  </Label>
-  <Label item ="BW_Buff23_Label">
-    <ScreenID>Buff23Label</ScreenID>
-  </Label>
-  <Label item ="BW_Buff24_Label">
-    <ScreenID>Buff24Label</ScreenID>
   </Label>
 
   <Screen item="BuffWindow">
@@ -1162,16 +1061,6 @@
     <Pieces>BW_Number12Label</Pieces>
     <Pieces>BW_Number13Label</Pieces>
     <Pieces>BW_Number14Label</Pieces>
-    <Pieces>BW_Number15Label</Pieces>
-    <Pieces>BW_Number16Label</Pieces>
-    <Pieces>BW_Number17Label</Pieces>
-    <Pieces>BW_Number18Label</Pieces>
-    <Pieces>BW_Number19Label</Pieces>
-    <Pieces>BW_Number20Label</Pieces>
-    <Pieces>BW_Number21Label</Pieces>
-    <Pieces>BW_Number22Label</Pieces>
-    <Pieces>BW_Number23Label</Pieces>
-    <Pieces>BW_Number24Label</Pieces>
     <Pieces>BW_Buff0_Button</Pieces>
     <Pieces>BW_Buff1_Button</Pieces>
     <Pieces>BW_Buff2_Button</Pieces>
@@ -1187,16 +1076,6 @@
     <Pieces>BW_Buff12_Button</Pieces>
     <Pieces>BW_Buff13_Button</Pieces>
     <Pieces>BW_Buff14_Button</Pieces>
-    <Pieces>BW_Buff15_Button</Pieces>
-    <Pieces>BW_Buff16_Button</Pieces>
-    <Pieces>BW_Buff17_Button</Pieces>
-    <Pieces>BW_Buff18_Button</Pieces>
-    <Pieces>BW_Buff19_Button</Pieces>
-    <Pieces>BW_Buff20_Button</Pieces>
-    <Pieces>BW_Buff21_Button</Pieces>
-    <Pieces>BW_Buff22_Button</Pieces>
-    <Pieces>BW_Buff23_Button</Pieces>
-    <Pieces>BW_Buff24_Button</Pieces>
     <Pieces>BW_Buff0_Label</Pieces>
     <Pieces>BW_Buff1_Label</Pieces>
     <Pieces>BW_Buff2_Label</Pieces>
@@ -1212,15 +1091,5 @@
     <Pieces>BW_Buff12_Label</Pieces>
     <Pieces>BW_Buff13_Label</Pieces>
     <Pieces>BW_Buff14_Label</Pieces>
-    <Pieces>BW_Buff15_Label</Pieces>
-    <Pieces>BW_Buff16_Label</Pieces>
-    <Pieces>BW_Buff17_Label</Pieces>
-    <Pieces>BW_Buff18_Label</Pieces>
-    <Pieces>BW_Buff19_Label</Pieces>
-    <Pieces>BW_Buff20_Label</Pieces>
-    <Pieces>BW_Buff21_Label</Pieces>
-    <Pieces>BW_Buff22_Label</Pieces>
-    <Pieces>BW_Buff23_Label</Pieces>
-    <Pieces>BW_Buff24_Label</Pieces>
   </Screen>
 </XML>

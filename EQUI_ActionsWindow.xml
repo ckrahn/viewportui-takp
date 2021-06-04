@@ -162,7 +162,7 @@
 		<ScreenID>HPLabel</ScreenID>
 		<Location>
 			<X>55</X>
-			<Y>4</Y>
+			<Y>12</Y>
 		</Location>
 		<Size>
 			<CX>33</CX>
@@ -182,47 +182,7 @@
 		<EQType>70</EQType>
 		<Location>
 			<X>88</X>
-			<Y>4</Y>
-		</Location>
-		<Size>
-			<CX>65</CX>
-			<CY>16</CY>
-		</Size>
-		<Font>2</Font>
-		<Text>255</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<AlignCenter>true</AlignCenter>
-	</Label>
-
-	<Label item="AMP_Mana">
-		<ScreenID>ManaLabel</ScreenID>
-		<Location>
-			<X>55</X>
-			<Y>20</Y>
-		</Location>
-		<Size>
-			<CX>33</CX>
-			<CY>16</CY>
-		</Size>
-		<Font>2</Font>
-		<Text>mana</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-	</Label>
-
-	<Label item="AMP_ManaNumber">
-		<ScreenID>ManaNumberLabel</ScreenID>
-		<EQType>128</EQType>
-		<Location>
-			<X>88</X>
-			<Y>20</Y>
+			<Y>12</Y>
 		</Location>
 		<Size>
 			<CX>65</CX>
@@ -242,7 +202,7 @@
 		<ScreenID>ACLabel</ScreenID>
 		<Location>
 			<X>55</X>
-			<Y>36</Y>
+			<Y>29</Y>
 		</Location>
 		<Size>
 			<CX>38</CX>
@@ -262,7 +222,7 @@
 		<EQType>22</EQType>
 		<Location>
 			<X>93</X>
-			<Y>36</Y>
+			<Y>29</Y>
 		</Location>
 		<Size>
 			<CX>60</CX>
@@ -282,7 +242,7 @@
 		<ScreenID>ATKLabel</ScreenID>
 		<Location>
 			<X>55</X>
-			<Y>52</Y>
+			<Y>46</Y>
 		</Location>
 		<Size>
 			<CX>38</CX>
@@ -302,7 +262,7 @@
 		<EQType>23</EQType>
 		<Location>
 			<X>93</X>
-			<Y>52</Y>
+			<Y>46</Y>
 		</Location>
 		<Size>
 			<CX>60</CX>
@@ -811,8 +771,6 @@
 		<TabIconActive>A_MainTabActiveIcon</TabIconActive>
 			<Pieces>AMP_HP</Pieces>
 			<Pieces>AMP_HPNumber</Pieces>
-			<Pieces>AMP_Mana</Pieces>
-			<Pieces>AMP_ManaNumber</Pieces>
 			<Pieces>AMP_AC</Pieces>
 			<Pieces>AMP_ACNumber</Pieces>
 			<Pieces>AMP_ATK</Pieces>
@@ -864,11 +822,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>16</Y>
+			<Y>18</Y>
 		</Location>
 		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>80</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>1</Text>
 		<TextColor>
@@ -877,11 +835,11 @@
 			<B>240</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_SquareBtnNormal</Normal>
-			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -890,12 +848,12 @@
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>44</X>
-			<Y>16</Y>
+			<X>2</X>
+			<Y>44</Y>
 		</Location>
 		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>80</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>2</Text>
 		<TextColor>
@@ -904,11 +862,11 @@
 			<B>240</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_SquareBtnNormal</Normal>
-			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -918,11 +876,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>87</X>
-			<Y>16</Y>
+			<Y>18</Y>
 		</Location>
 		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>80</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>3</Text>
 		<TextColor>
@@ -931,26 +889,25 @@
 			<B>240</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_SquareBtnNormal</Normal>
-			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
-
 
 	<Button item = "AAP_FourthAbilityButton">
 		<ScreenID>AAP_FourthAbilityButton</ScreenID>
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>129</X>
-			<Y>16</Y>
+			<X>87</X>
+			<Y>44</Y>
 		</Location>
 		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>80</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>4</Text>
 		<TextColor>
@@ -959,11 +916,11 @@
 			<B>240</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_SquareBtnNormal</Normal>
-			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -973,11 +930,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>172</X>
-			<Y>16</Y>
+			<Y>18</Y>
 		</Location>
 		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>80</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>5</Text>
 		<TextColor>
@@ -986,11 +943,11 @@
 			<B>240</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_SquareBtnNormal</Normal>
-			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -999,12 +956,12 @@
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>214</X>
-			<Y>16</Y>
+			<X>172</X>
+			<Y>44</Y>
 		</Location>
 		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>80</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>6</Text>
 		<TextColor>
@@ -1013,11 +970,11 @@
 			<B>240</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_SquareBtnNormal</Normal>
-			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -1047,11 +1004,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>16</Y>
+			<Y>18</Y>
 		</Location>
 		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>80</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>Melee Attack</Text>
 		<TextColor>
@@ -1060,15 +1017,15 @@
 			<B>240</B>
 		</TextColor>
 		<DecalSize>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>26</CX>
+			<CY>26</CY>
 		</DecalSize>
 		<ButtonDrawTemplate>
-			<Normal>A_SquareBtnNormal</Normal>
-			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -1077,12 +1034,12 @@
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>44</X>
-			<Y>16</Y>
+			<X>2</X>
+			<Y>44</Y>
 		</Location>
 		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>80</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>Range Attack</Text>
 		<TextColor>
@@ -1091,15 +1048,15 @@
 			<B>240</B>
 		</TextColor>
 		<DecalSize>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>26</CX>
+			<CY>26</CY>
 		</DecalSize>
 		<ButtonDrawTemplate>
-			<Normal>A_SquareBtnNormal</Normal>
-			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -1109,11 +1066,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>87</X>
-			<Y>16</Y>
+			<Y>18</Y>
 		</Location>
 		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>80</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>1</Text>
 		<TextColor>
@@ -1122,11 +1079,11 @@
 			<B>240</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_SquareBtnNormal</Normal>
-			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -1136,12 +1093,12 @@
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>129</X>
-			<Y>16</Y>
+			<X>87</X>
+			<Y>44</Y>
 		</Location>
 		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>80</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>2</Text>
 		<TextColor>
@@ -1150,11 +1107,11 @@
 			<B>240</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_SquareBtnNormal</Normal>
-			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -1164,11 +1121,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>172</X>
-			<Y>16</Y>
+			<Y>18</Y>
 		</Location>
 		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>80</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>3</Text>
 		<TextColor>
@@ -1177,11 +1134,11 @@
 			<B>240</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_SquareBtnNormal</Normal>
-			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 
@@ -1190,12 +1147,12 @@
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>214</X>
-			<Y>16</Y>
+			<X>172</X>
+			<Y>44</Y>
 		</Location>
 		<Size>
-			<CX>40</CX>
-			<CY>40</CY>
+			<CX>80</CX>
+			<CY>26</CY>
 		</Size>
 		<Text>4</Text>
 		<TextColor>
@@ -1204,11 +1161,11 @@
 			<B>240</B>
 		</TextColor>
 		<ButtonDrawTemplate>
-			<Normal>A_SquareBtnNormal</Normal>
-			<Pressed>A_SquareBtnPressed</Pressed>
-			<Flyby>A_SquareBtnFlyby</Flyby>
-			<Disabled>A_SquareBtnDisabled</Disabled>
-			<PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
 		</ButtonDrawTemplate>
 	</Button>
 

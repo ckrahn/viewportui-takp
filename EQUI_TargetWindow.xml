@@ -73,6 +73,34 @@
 		</TextColor>
 		<NoWrap>true</NoWrap>
 	</Label>
+
+	<Gauge item="Target_CastingGauge">
+		<EQType>7</EQType>
+		<ScreenID>Gauge</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>46</Y>
+		</Location>
+		<Size>
+			<CX>225</CX>
+			<CY>20</CY>
+		</Size>
+		<TextOffsetX>-500</TextOffsetX>
+		<GaugeOffsetY>0</GaugeOffsetY>
+		<FillTint>
+			<R>192</R>
+			<G>0</G>
+			<B>192</B>
+		</FillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<GaugeDrawTemplate>
+			<Background>A_LargeGaugeBackground</Background>
+			<Fill>A_LargeGaugeFill</Fill>
+			<EndCapLeft>A_LargeGaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_LargeGaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
 	
 	<Label item="Target_HPPercLabel">
 		<ScreenID>HPPercLabel</ScreenID>
@@ -87,7 +115,7 @@
 		</Location>
 		<Size>
 			<CX>266</CX>
-			<CY>51</CY>
+			<CY>73</CY>
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -103,5 +131,6 @@
 		<Pieces>Target_HP</Pieces>
 		<Pieces>Target_HPLabel</Pieces>
 		<Pieces>Target_HPPercLabel</Pieces>
+		<Pieces>Target_CastingGauge</Pieces>
 	</Screen>
 </XML>

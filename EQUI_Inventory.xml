@@ -146,16 +146,69 @@
 	</Label>
 	<Label item="IW_Level">
 		<ScreenID>LevelClassLabel</ScreenID>
-		<!-- <EQType>2</EQType> -->
+		<EQType>2</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>4</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>24</CX>
+			<CY>21</CY>
+		</Size>
+		<Font>5</Font>
+		<Text>99</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
 	</Label>
 
 	<Label item="IW_Class">
-		<!-- <EQType>3</EQType> -->
+		<EQType>3</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>11</CY>
+		</Size>
+		<Font>1</Font>
+		<Text>Playerclass123456</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Label item="IW_Deity">
 		<ScreenID>DeityLabel</ScreenID>
-		<!-- <EQType>4</EQType> -->
+		<EQType>4</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>11</CY>
+		</Size>
+		<Font>1</Font>
+		<Text>Playerclass123456</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignRight>true</AlignRight>
 	</Label>
 
 	<Label item="IW_HP">
@@ -241,6 +294,15 @@
 	<Label item="IW_ExpPercLabel">
 		<ScreenID>ExpPercLabel</ScreenID>
 	</Label>
+	
+	<Label item="IW_AltAdvLabel">
+		<ScreenID>AltAdvLabel</ScreenID>
+	</Label>
+
+	<Gauge item="IW_AltAdvGauge">
+		<ScreenID>AltAdvGauge</ScreenID>
+		<!-- <EQType>5</EQType> -->
+	</Gauge>
 
 	<Label item="IW_STR">
 		<ScreenID>STRLabel</ScreenID>
@@ -375,7 +437,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>55</X>
-			<Y>5</Y>
+			<Y>30</Y>
 		</Location>
 		<Size>
 			<CX>75</CX>
@@ -406,7 +468,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>55</X>
-			<Y>20</Y>
+			<Y>45</Y>
 		</Location>
 		<Size>
 			<CX>75</CX>
@@ -437,7 +499,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>55</X>
-			<Y>35</Y>
+			<Y>60</Y>
 		</Location>
 		<Size>
 			<CX>75</CX>
@@ -468,7 +530,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>55</X>
-			<Y>50</Y>
+			<Y>75</Y>
 		</Location>
 		<Size>
 			<CX>75</CX>
@@ -499,7 +561,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>50</X>
-			<Y>71</Y>
+			<Y>96</Y>
 		</Location>
 		<Size>
 			<CX>43</CX>
@@ -526,7 +588,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>94</X>
-			<Y>71</Y>
+			<Y>96</Y>
 		</Location>
 		<Size>
 			<CX>43</CX>
@@ -534,6 +596,60 @@
 		</Size>
 		<Font>1</Font>
 		<Text>Destroy</Text>
+		<TextColor>
+			<R>240</R>
+			<G>180</G>
+			<B>180</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_SmallBtnNormal</Normal>
+			<Pressed>A_SmallBtnPressed</Pressed>
+			<Flyby>A_SmallBtnFlyby</Flyby>
+			<Disabled>A_SmallBtnDisabled</Disabled>
+			<PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item="IW_AltAdv">
+		<ScreenID>IW_AltAdvBtn</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>50</X>
+			<Y>122</Y>
+		</Location>
+		<Size>
+			<CX>43</CX>
+			<CY>25</CY>
+		</Size>
+		<Font>1</Font>
+		<Text>AA</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_SmallBtnNormal</Normal>
+			<Pressed>A_SmallBtnPressed</Pressed>
+			<Flyby>A_SmallBtnFlyby</Flyby>
+			<Disabled>A_SmallBtnDisabled</Disabled>
+			<PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item="IW_DoneButton">
+		<ScreenID>DoneButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>94</X>
+			<Y>122</Y>
+		</Location>
+		<Size>
+			<CX>43</CX>
+			<CY>25</CY>
+		</Size>
+		<Font>1</Font>
+		<Text>Done</Text>
 		<TextColor>
 			<R>240</R>
 			<G>240</G>
@@ -551,14 +667,14 @@
 	<StaticAnimation item="ClassAnim">
 		<ScreenID>ClassAnim</ScreenID>
 		<Location>
-			<X>0</X>
-			<Y>0</Y>
+			<X>2</X>
+			<Y>43</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
 			<CY>90</CY>
 		</Size>
-		<!-- Do NOT include an animation here since it messes with other UIs.	Instead an animation instance is dynamically created and used. -->
+    <Animation>A_ClassAnim01</Animation>
 	</StaticAnimation>
 
 	<Screen item="IW_CharacterView">
@@ -566,11 +682,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>2</Y>
+			<Y>27</Y>
 		</Location>
 		<Size>
 			<CX>46</CX>
-			<CY>93</CY>
+			<CY>119</CY>
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -582,570 +698,7 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
-		<Pieces>ClassAnim</Pieces>
 	</Screen>
-
-	<Button item="IW_DoneButton">
-		<ScreenID>DoneButton</ScreenID>
-	</Button>
-	
-<!-- BEGIN USELESS WINDOW COMPONENTS -->
-
-	<InvSlot item="InvSlot0">
-		<ScreenID>InvSlot0</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>-100</X>
-			<Y>-100</Y>
-		</Location>
-		<Size>
-			<CX>42</CX>
-			<CY>42</CY>
-		</Size>
-		<Background>A_InvCharm</Background>
-		<EQType>0</EQType>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-	</InvSlot>
-	
-	<Button item="IW_GoodPoints">
-		<ScreenID>IW_GoodPoints</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>-100</X>
-			<Y>-100</Y>
-		</Location>
-		<Size>
-			<CX>70</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>9999</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>A_RecessedBox</Normal>
-			<NormalDecal>A_RadiantCrystal</NormalDecal>
-		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>1</X>
-			<Y>3</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
-		</DecalSize>
-	</Button>
-	<Button item="IW_EvilPoints">
-		<ScreenID>IW_EvilPoints</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>-100</X>
-			<Y>-100</Y>
-		</Location>
-		<Size>
-			<CX>70</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>9999</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>A_RecessedBox</Normal>
-			<NormalDecal>A_EbonCrystal</NormalDecal>
-		</ButtonDrawTemplate>
-		<DecalOffset>
-			<X>1</X>
-			<Y>3</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>18</CX>
-			<CY>18</CY>
-		</DecalSize>
-	</Button>
-
-	<Button item="IW_ReclaimButton">
-		<ScreenID>IW_ReclaimButton</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>-100</X>
-			<Y>-100</Y>
-		</Location>
-		<Size>
-			<CX>71</CX>
-			<CY>25</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text>Reclaim</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-		</ButtonDrawTemplate>
-	</Button>
-
-	<Button item="IW_AltAdvBtn">
-		<ScreenID>IW_AltAdvBtn</ScreenID>
-		<Font>2</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>-100</X>
-			<Y>-100</Y>
-		</Location>
-		<Size>
-			<CX>56</CX>
-			<CY>20</CY>
-		</Size>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Alt. Adv.</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-		</ButtonDrawTemplate>
-	</Button>
-	<Button item="IW_Tinting">
-		<ScreenID>IW_Tinting</ScreenID>
-		<Font>2</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>-100</X>
-			<Y>-100</Y>
-		</Location>
-		<Size>
-			<CX>45</CX>
-			<CY>20</CY>
-		</Size>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<Style_Checkbox>false</Style_Checkbox>
-		<!--<RadioGroup/>-->
-		<Text>Dye</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-		</ButtonDrawTemplate>
-	</Button>
-	<Label item="IW_AltAdv">
-		<ScreenID>AltAdvLabel</ScreenID>
-		<Font>2</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>-200</X>
-			<Y>-200</Y>
-		</Location>
-		<Size>
-			<CX>120</CX>
-			<CY>14</CY>
-		</Size>
-		<Text>ALT. ADV.</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>false</AlignRight>
-	</Label>
-	<Gauge item="IW_AltAdvGauge">
-		<ScreenID>AltAdvGauge</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>-200</X>
-			<Y>-200</Y>
-		</Location>
-		<Size>
-			<CX>118</CX>
-			<CY>15</CY>
-		</Size>
-		<GaugeOffsetY>0</GaugeOffsetY>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
-		<FillTint>
-			<R>220</R>
-			<G>150</G>
-			<B>0</B>
-		</FillTint>
-		<LinesFillTint>
-			<R>0</R>
-			<G>40</G>
-			<B>150</B>
-		</LinesFillTint>
-		<DrawLinesFill>true</DrawLinesFill>
-		<EQType>5</EQType>
-		<GaugeDrawTemplate>
-			<Background>A_GaugeBackground</Background>
-			<Fill>A_GaugeFill</Fill>
-			<Lines>A_GaugeLines</Lines>
-			<LinesFill>A_GaugeLinesFill</LinesFill>
-			<EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
-			<EndCapRight>A_GaugeEndCapRight</EndCapRight>
-		</GaugeDrawTemplate>
-	</Gauge>
-	<Page item="IW_InvPage">
-		<ScreenID>InvPage</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<DrawTemplate>WDT_Def</DrawTemplate>
-		<TabText>Inventory</TabText>
-		<TabTextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TabTextColor>
-		<TabTextActiveColor>
-			<R>255</R>
-			<G>255</G>
-			<B>0</B>
-		</TabTextActiveColor>
-		<Style_Sizable>true</Style_Sizable>
-		<Location>
-			<X>-200</X>
-			<Y>-200</Y>
-		</Location>
-		<Size>
-			<CX>50</CX>
-			<CY>50</CY>
-		</Size>
-	</Page>
-	<Listbox item="IWEI_ItemList">
-		<ScreenID>EI_ItemList</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>-500</LeftAnchorOffset>
-		<TopAnchorOffset>-500</TopAnchorOffset>
-		<RightAnchorOffset>-500</RightAnchorOffset>
-		<BottomAnchorOffset>-500</BottomAnchorOffset>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<Style_Border>true</Style_Border>
-		<Style_VScroll>true</Style_VScroll>
-		<Columns>
-			<Width>1</Width>
-			<Heading />
-		</Columns>
-		<Columns>
-			<Width>1</Width>
-			<Heading>Item Name</Heading>
-		</Columns>
-		<Columns>
-			<Width>1</Width>
-			<Heading>Level</Heading>
-		</Columns>
-		<Columns>
-			<Width>1</Width>
-			<Heading>Progress</Heading>
-		</Columns>
-		<Columns>
-			<Width>1</Width>
-			<Heading>Active</Heading>
-		</Columns>
-	</Listbox>
-	<Button item="IWEI_ToggleButton">
-		<ScreenID>EI_ToggleButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>true</RightAnchorToLeft>
-		<LeftAnchorOffset>-100</LeftAnchorOffset>
-		<TopAnchorOffset>-100</TopAnchorOffset>
-		<RightAnchorOffset>-100</RightAnchorOffset>
-		<BottomAnchorOffset>-100</BottomAnchorOffset>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Click here to toggle whether the current item will gain experience.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text>Toggle Selected</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-		</ButtonDrawTemplate>
-	</Button>
-	<Button item="IWEI_AllOnButton">
-		<ScreenID>EI_AllOnButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>-100</LeftAnchorOffset>
-		<TopAnchorOffset>-100</TopAnchorOffset>
-		<RightAnchorOffset>-100</RightAnchorOffset>
-		<BottomAnchorOffset>-100</BottomAnchorOffset>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Click here to set all items listed to collect experience.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text>Activate All</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-		</ButtonDrawTemplate>
-	</Button>
-	<Button item="IWEI_AllOffButton">
-		<ScreenID>EI_AllOffButton</ScreenID>
-		<!--<Font>3</Font>-->
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorToTop>false</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<LeftAnchorOffset>-100</LeftAnchorOffset>
-		<TopAnchorOffset>-100</TopAnchorOffset>
-		<RightAnchorOffset>-100</RightAnchorOffset>
-		<BottomAnchorOffset>-100</BottomAnchorOffset>
-		<Style_Transparent>false</Style_Transparent>
-		<TooltipReference>Click here to set all items listed to NOT collect experience.</TooltipReference>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Text>Deactivate All</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<ButtonDrawTemplate>
-			<Normal>A_BtnNormal</Normal>
-			<Pressed>A_BtnPressed</Pressed>
-			<Flyby>A_BtnFlyby</Flyby>
-			<Disabled>A_BtnDisabled</Disabled>
-			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
-		</ButtonDrawTemplate>
-	</Button>
-	<Page item="IW_EIPage">
-		<ScreenID>EIPage</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<DrawTemplate>WDT_Def</DrawTemplate>
-		<TabText>Evolving Items</TabText>
-		<TabTextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TabTextColor>
-		<TabTextActiveColor>
-			<R>255</R>
-			<G>255</G>
-			<B>0</B>
-		</TabTextActiveColor>
-		<Style_Sizable>true</Style_Sizable>
-		<Pieces>IWEI_ItemList</Pieces>
-		<Pieces>IWEI_ToggleButton</Pieces>
-		<Pieces>IWEI_AllOnButton</Pieces>
-		<Pieces>IWEI_AllOffButton</Pieces>
-		<Location>
-			<X>-200</X>
-			<Y>-200</Y>
-		</Location>
-		<Size>
-			<CX>50</CX>
-			<CY>50</CY>
-		</Size>
-	</Page>
-	<Listbox item="ACP_ProgressionList">
-		<ScreenID>ProgressionList</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>0</CX>
-			<CY>300</CY>
-		</Size>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<Style_Border>true</Style_Border>
-		<Style_VScroll>true</Style_VScroll>
-		<Columns>
-			<Width>150</Width>
-			<Heading>Progression</Heading>
-		</Columns>
-		<Columns>
-			<Width>80</Width>
-			<Heading>Unlocked</Heading>
-		</Columns>
-		<Columns>
-			<Width>120</Width>
-			<Heading>Next Class</Heading>
-		</Columns>
-		<Columns>
-			<Width>50</Width>
-			<Heading />
-		</Columns>
-	</Listbox>
-	<STMLbox item="ACP_ProgressionInfo">
-		<ScreenID>ProgressionInfo</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>0</X>
-			<Y>0</Y>
-		</Location>
-		<Size>
-			<CX>1</CX>
-			<CY>100</CY>
-		</Size>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<Style_Border>true</Style_Border>
-		<Style_VScroll>true</Style_VScroll>
-	</STMLbox>
-	<VerticalLayoutBox item="ACP_ProgressionLayout">
-		<ScreenID>ProgressionTemplateDataListLayout</ScreenID>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
-		<DrawTemplate>WDT_Inner</DrawTemplate>
-		<AutoStretch>true</AutoStretch>
-		<LeftAnchorOffset>4</LeftAnchorOffset>
-		<TopAnchorOffset>4</TopAnchorOffset>
-		<RightAnchorOffset>4</RightAnchorOffset>
-		<BottomAnchorOffset>4</BottomAnchorOffset>
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<Spacing>2</Spacing>
-		<Style_Border>false</Style_Border>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_Transparent>true</Style_Transparent>
-		<Pieces>ACP_ProgressionList</Pieces>
-		<Pieces>ACP_ProgressionInfo</Pieces>
-	</VerticalLayoutBox>
-	<Page item="IW_AltCharProgPage">
-		<ScreenID>AltCharProgPage</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<DrawTemplate>WDT_Def</DrawTemplate>
-		<TabText>Shroud Progression</TabText>
-		<TabTextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TabTextColor>
-		<TabTextActiveColor>
-			<R>255</R>
-			<G>255</G>
-			<B>0</B>
-		</TabTextActiveColor>
-		<Style_Sizable>true</Style_Sizable>
-		<Pieces>VerticalLayoutBox:ACP_ProgressionLayout</Pieces>
-		<Location>
-			<X>-200</X>
-			<Y>-200</Y>
-		</Location>
-		<Size>
-			<CX>50</CX>
-			<CY>50</CY>
-		</Size>
-	</Page>
-
-	<TabBox item="IW_Subwindows">
-		<ScreenID>IW_Subwindows</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<AutoStretch>false</AutoStretch>
-		<TopAnchorToTop>true</TopAnchorToTop>
-		<BottomAnchorToTop>false</BottomAnchorToTop>
-		<LeftAnchorToLeft>true</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TabBorderTemplate>FT_DefTabBorder</TabBorderTemplate>
-		<PageBorderTemplate>FT_DefPageBorder</PageBorderTemplate>
-		<Pages>Page:IW_InvPage</Pages>
-		<Pages>Page:IW_EIPage</Pages>
-		<Pages>Page:IW_AltCharProgPage</Pages>
-		<LeftAnchorOffset>1</LeftAnchorOffset>
-		<RightAnchorOffset>0</RightAnchorOffset>
-		<TopAnchorOffset>0</TopAnchorOffset>
-		<BottomAnchorOffset>0</BottomAnchorOffset>
-	</TabBox>
 	
 	<Screen item="InventoryWindow">
 		<!--<ScreenID/>-->
@@ -1156,7 +709,7 @@
 		</Location>
 		<Size>
 			<CX>140</CX>
-			<CY>99</CY>
+			<CY>150</CY>
 		</Size>
 		<Text>Inventory</Text>
 		<Style_VScroll>false</Style_VScroll>
@@ -1200,6 +753,8 @@
 		<Pieces>InvSlot29</Pieces>
 		<Pieces>IW_Skills</Pieces>
 		<Pieces>IW_Destroy</Pieces>
+		<Pieces>IW_AltAdv</Pieces>
+		<Pieces>IW_DoneButton</Pieces>
 		<Pieces>IW_Name</Pieces>
 		<Pieces>IW_Level</Pieces>
 		<Pieces>IW_Class</Pieces>
@@ -1224,6 +779,8 @@
 		<Pieces>IW_ExpGauge</Pieces>
 		<Pieces>IW_ExpPerc</Pieces>
 		<Pieces>IW_ExpPercLabel</Pieces>
+		<Pieces>IW_AltAdvLabel</Pieces>
+		<Pieces>IW_AltAdvGauge</Pieces>
 		<Pieces>IW_STR</Pieces>
 		<Pieces>IW_STRNumber</Pieces>
 		<Pieces>IW_STA</Pieces>
@@ -1252,21 +809,12 @@
 		<Pieces>IW_CurrentWeight</Pieces>
 		<Pieces>IW_WeightNumber</Pieces>
 		<Pieces>IW_MaxWeight</Pieces>
-		<Pieces>Screen:IW_CharacterView</Pieces>
-		<Pieces>IW_DoneButton</Pieces>
 		<Pieces>IW_FacePick</Pieces>
-		<Pieces>InvSlot0</Pieces>
-		<Pieces>IW_GoodPoints</Pieces>
-		<Pieces>IW_EvilPoints</Pieces>
-		<Pieces>IW_ReclaimButton</Pieces>
-		<Pieces>IW_AltAdvBtn</Pieces>
-		<Pieces>IW_Tinting</Pieces>
-		<Pieces>IW_AltAdv</Pieces>
-		<Pieces>IW_AltAdvGauge</Pieces>
-		<Pieces>IW_Subwindows</Pieces>
 		<Pieces>IW_Money0</Pieces>
 		<Pieces>IW_Money1</Pieces>
 		<Pieces>IW_Money2</Pieces>
 		<Pieces>IW_Money3</Pieces>
+		<Pieces>IW_CharacterView</Pieces>
+		<Pieces>ClassAnim</Pieces>
 	</Screen>
 </XML>

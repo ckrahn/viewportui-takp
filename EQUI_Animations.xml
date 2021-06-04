@@ -4874,8 +4874,21 @@
 		<Frames>
 			<Texture>classic_pieces01.dds</Texture>
 			<Location>
-				<X>39</X>
-				<Y>117</Y>
+				<X>105</X>
+				<Y>147</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="HB_SpellGemBackground">
+		<Frames>
+			<Texture>classic_pieces01.dds</Texture>
+			<Location>
+				<X>144</X>
+				<Y>147</Y>
 			</Location>
 			<Size>
 				<CX>40</CX>
@@ -6824,8 +6837,8 @@
 		<Cycle>false</Cycle>
 		<Grid>true</Grid>
 		<Vertical>false</Vertical>
-		<CellHeight>28</CellHeight>
-		<CellWidth>36</CellWidth>
+		<CellHeight>24</CellHeight>
+		<CellWidth>24</CellWidth>
 		<Frames>
 			<Texture>gemicons01.tga</Texture>
 			<Location>
@@ -7155,7 +7168,7 @@
 				<Y>74</Y>
 			</Location>
 			<Size>
-				<CX>110</CX>
+				<CX>107</CX>
 				<CY>10</CY>
 			</Size>
 			<Hotspot>
@@ -7174,7 +7187,7 @@
 				<Y>84</Y>
 			</Location>
 			<Size>
-				<CX>110</CX>
+				<CX>107</CX>
 				<CY>10</CY>
 			</Size>
 			<Hotspot>

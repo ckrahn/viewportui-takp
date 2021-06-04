@@ -81,8 +81,8 @@
 		<SpellGemDrawTemplate>
 			<Background>CW_SpellGemHighlight</Background>
 		</SpellGemDrawTemplate>
-		<SpellIconOffsetX>-5</SpellIconOffsetX>
-		<SpellIconOffsetY>-2</SpellIconOffsetY>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>-1</SpellIconOffsetY>
 	</SpellGem>
 	
 	<Label item="CSPW_Spell0_Name_Shd">
@@ -174,8 +174,8 @@
 		<SpellGemDrawTemplate>
 			<Background>CW_SpellGemHighlight</Background>
 		</SpellGemDrawTemplate>
-		<SpellIconOffsetX>-5</SpellIconOffsetX>
-		<SpellIconOffsetY>-2</SpellIconOffsetY>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>-1</SpellIconOffsetY>
 	</SpellGem>
 	
 	<Label item="CSPW_Spell1_Name_Shd">
@@ -267,8 +267,8 @@
 		<SpellGemDrawTemplate>
 			<Background>CW_SpellGemHighlight</Background>
 		</SpellGemDrawTemplate>
-		<SpellIconOffsetX>-5</SpellIconOffsetX>
-		<SpellIconOffsetY>-2</SpellIconOffsetY>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>-1</SpellIconOffsetY>
 	</SpellGem>
 	
 	<Label item="CSPW_Spell2_Name_Shd">
@@ -360,8 +360,8 @@
 		<SpellGemDrawTemplate>
 			<Background>CW_SpellGemHighlight</Background>
 		</SpellGemDrawTemplate>
-		<SpellIconOffsetX>-5</SpellIconOffsetX>
-		<SpellIconOffsetY>-2</SpellIconOffsetY>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>-1</SpellIconOffsetY>
 	</SpellGem>
 	
 	<Label item="CSPW_Spell3_Name_Shd">
@@ -453,8 +453,8 @@
 		<SpellGemDrawTemplate>
 			<Background>CW_SpellGemHighlight</Background>
 		</SpellGemDrawTemplate>
-		<SpellIconOffsetX>-5</SpellIconOffsetX>
-		<SpellIconOffsetY>-2</SpellIconOffsetY>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>-1</SpellIconOffsetY>
 	</SpellGem>
 	
 	<Label item="CSPW_Spell4_Name_Shd">
@@ -546,8 +546,8 @@
 		<SpellGemDrawTemplate>
 			<Background>CW_SpellGemHighlight</Background>
 		</SpellGemDrawTemplate>
-		<SpellIconOffsetX>-5</SpellIconOffsetX>
-		<SpellIconOffsetY>-2</SpellIconOffsetY>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>-1</SpellIconOffsetY>
 	</SpellGem>
 	
 	<Label item="CSPW_Spell5_Name_Shd">
@@ -639,8 +639,8 @@
 		<SpellGemDrawTemplate>
 			<Background>CW_SpellGemHighlight</Background>
 		</SpellGemDrawTemplate>
-		<SpellIconOffsetX>-5</SpellIconOffsetX>
-		<SpellIconOffsetY>-2</SpellIconOffsetY>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>-1</SpellIconOffsetY>
 	</SpellGem>
 	
 	<Label item="CSPW_Spell6_Name_Shd">
@@ -732,8 +732,8 @@
 		<SpellGemDrawTemplate>
 			<Background>CW_SpellGemHighlight</Background>
 		</SpellGemDrawTemplate>
-		<SpellIconOffsetX>-5</SpellIconOffsetX>
-		<SpellIconOffsetY>-2</SpellIconOffsetY>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>-1</SpellIconOffsetY>
 	</SpellGem>
 	
 	<Label item="CSPW_Spell7_Name_Shd">
